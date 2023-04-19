@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>New match</title>
+    <link rel="stylesheet" type="text/css" href="../css/style-new-match.css">
+
 </head>
 <body>
+    <h1>NEW MATCH</h1>
+
+    <div id="image-container">
+        <img src="../images/Two players.jpg" alt="Two players">
+    </div>
+    <p></p>
+
+    <form method="post" action="/new-match" >
+        <table>
+            <tr>
+                <td>Enter name first player</td>
+                <td><input type="text" name="nameFirstPlayer"></td>
+            </tr>
+            <tr>
+                <td>Enter name second player</td>
+                <td><input type="text" name="nameSecondPlayer"></td>
+            </tr>
+            <tr>
+                <td align="right" colspan="2"><input type="submit" value="Отправить"></td>
+            </tr>
+        </table>
+    </form>
 
 </body>
 </html>
