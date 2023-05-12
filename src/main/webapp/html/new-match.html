@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>New match</title>
+    <title>v</title>
     <link rel="stylesheet" type="text/css" href="../css/style-new-match.css">
 
 </head>
@@ -14,21 +14,17 @@
     </div>
     <p></p>
 
-    <form method="post" action="/new-match" >
-        <table>
-            <tr>
-                <td>Enter name first player</td>
-                <td><input type="text" name="nameFirstPlayer"></td>
-            </tr>
-            <tr>
-                <td>Enter name second player</td>
-                <td><input type="text" name="nameSecondPlayer"></td>
-            </tr>
-            <tr>
-                <td align="right" colspan="2"><input type="submit" value="Отправить"></td>
-            </tr>
-        </table>
-    </form>
+    <div id="newMatch-container">
+        <form action="/html/new-match" method="POST">
+            <label for="nameFirstPlayer">Enter name first player:</label>
+            <input type="text" id="nameFirstPlayer" name="nameFirstPlayer">
+            <label for="nameSecondPlayer">Enter name second player:</label>
+            <input type="text" id="nameSecondPlayer" name="nameSecondPlayer">
+            <button type="submit">Start</button>
+        </form>
+    </div>
+
+
 
 </body>
 </html>

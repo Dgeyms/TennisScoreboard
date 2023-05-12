@@ -9,3 +9,6 @@ h1 {
 #image-container img {
     max-width: 100%; /* Для масштабирования изображения в соответствии с шириной страницы */
 }
+#newMatch-container{
+    text-align: center;
+}

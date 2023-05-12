@@ -4,6 +4,10 @@
   <groupId>org.example</groupId>
   <artifactId>TennisScoreboard</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>TennisScoreboard Maven Webapp</name>
   <url>https://maven.apache.org</url>
@@ -21,7 +25,17 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
-
+    <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+    <dependency>
+      <groupId>org.hibernate.orm</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>6.2.2.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>1.4.200</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>TennisScoreboard</finalName>

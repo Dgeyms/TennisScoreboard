@@ -2,9 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Match-score</title>
+    <link rel="stylesheet" type="text/css" href="../css/style-match-score.css">
 </head>
 <body>
+    <h1>MATCH SCORE</h1>
+    <div id="image-container">
+        <img src="../images/Tennis Step.jpg" alt="Tennis table">
+    </div>
+    <p></p>
 
+        <table border="1">
+            <tr>
+                <td colspan="2">PLAYERS</td>
+                <td>SETS</td>
+                <td>CHECK</td>
+            </tr>
+            <tr>
+                <td colspan="2">PLAYERS</td>
+                <td>SETS</td>
+                <td>CHECK</td>
+            </tr>
+            <tr>
+                <td colspan="2">PLAYERS</td>
+                <td>SETS</td>
+                <td>CHECK</td>
+            </tr>
+        </table>
+
+    <p></p>
+
+    <h2>Choose which player won the point</h2>
+
+    <div id="buttons-container">
+        <form action="/html/matchScoreServlet" method="POST">
+            <button type="submit">Player 1 won the current point</button>
+            <button type="submit">Player 2 won the current point</button>
+        </form>
+    </div>
 </body>
 </html>

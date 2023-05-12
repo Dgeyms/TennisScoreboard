@@ -24,11 +24,5 @@
             <h3>MATCHES PAGE</h3>
             <a href="html/matches.html">Go to played matches</a>
         </div>
-
-
-
-
-
-
     </body>
 </html>
