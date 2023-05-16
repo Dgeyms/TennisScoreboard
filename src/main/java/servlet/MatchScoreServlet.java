@@ -1,11 +1,11 @@
 package servlet;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
+import jakarta.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "MatchScoreServlet", value = "/matchScoreServlet")
+@WebServlet(name = "MatchScoreServlet", value = "/match-score")
 public class MatchScoreServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

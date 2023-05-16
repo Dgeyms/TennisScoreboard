@@ -14,15 +14,18 @@
 
         <div id="new-match">
             <h3>NEW MATCH</h3>
-            <a href="html/new-match.html">Make new page match</a>
+            <a href="new-match.jsp">Make new page match</a>
         </div>
+
         <div id="match-score">
             <h3>RUNNING MATCH</h3>
-            <a href="html/match-score.html">Running match</a>
+            <a href="match-score.jsp">Running match</a>
         </div>
+
         <div id="matches">
             <h3>MATCHES PAGE</h3>
-            <a href="html/matches.html">Go to played matches</a>
+            <a href="matches.jsp">Go to played matches</a>
         </div>
+
     </body>
 </html>

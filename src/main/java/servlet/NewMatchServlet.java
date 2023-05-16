@@ -1,16 +1,26 @@
 package servlet;
 
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import database.H2InMemoryDatabase;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "NewMatchServlet", urlPatterns = { "/new-match" })
+@WebServlet(name = "NewMatchServlet", value = "/new-match")
 
 public class NewMatchServlet extends HttpServlet {
     private String nameFirstPlayer;
     private String nameSecondPlayer;
+
+    public String getNameFirstPlayer() {
+        return nameFirstPlayer;
+    }
+
+    public String getNameSecondPlayer() {
+        return nameSecondPlayer;
+    }
 
     public void setNameFirstPlayer(String nameFirstPlayer) {
         this.nameFirstPlayer = nameFirstPlayer;
@@ -25,6 +35,7 @@ public class NewMatchServlet extends HttpServlet {
 
 
     }
+    H2InMemoryDatabase database = new H2InMemoryDatabase(getNameFirstPlayer(),getNameSecondPlayer());
     // Проверяем существование игроков в таблице Players
 
 

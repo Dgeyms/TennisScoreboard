@@ -13,6 +13,10 @@ public class H2InMemoryDatabase {
     private static final String DB_USER = "";
     private static final String DB_PASSWORD = "";
 
+    public H2InMemoryDatabase(String nameFirstPlayer, String nameSecondPlayer) {
+
+    }
+
     public static void main(String[] args) throws SQLException {
 
         Connection connection = null;
@@ -25,7 +29,7 @@ public class H2InMemoryDatabase {
             statement = connection.createStatement();
 
             // create table
-            statement.execute("CREATE TABLE users (id int primary key, name varchar(255))");
+            statement.execute("CREATE TABLE users (id int primary key auto_increment, name varchar(255))");
 
             // insert data
             statement.execute("INSERT INTO users (id, name) VALUES(1, 'John')");
