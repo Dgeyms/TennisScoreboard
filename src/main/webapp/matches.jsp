@@ -9,7 +9,7 @@
 <html>
     <head>
         <title>MATCHES PAGE</title>
-        <link rel="stylesheet" type="text/css" href="css/style-matches.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <h1>MATCHES PAGE</h1>

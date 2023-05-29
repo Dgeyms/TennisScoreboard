@@ -1,11 +1,12 @@
 h1{
     text-align: center;
 }
-#image-container {
-    display: flex;
-    justify-content: center;
-    align-items: start;
+h2{
+    text-align: center;
 }
-#image-container img {
-    max-width: 100%; /* Для масштабирования изображения в соответствии с шириной страницы */
+#image-container{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
 }

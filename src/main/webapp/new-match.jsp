@@ -9,7 +9,7 @@
 <html>
   <head>
     <title>NEW MATCH</title>
-    <link rel="stylesheet" type="text/css" href="css/style-new-match.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <h1>NEW MATCH</h1>

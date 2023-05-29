@@ -9,7 +9,7 @@
 <html>
     <head>
         <title>MATCH SCORE</title>
-        <link rel="stylesheet" type="text/css" href="css/style-match-score.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <h1>MATCH SCORE</h1>
@@ -18,11 +18,11 @@
         </div>
         <p></p>
 
-        <table class="players" border="1">
+        <table class="tables-players" border="1">
             <tr>
-                <td colspan="2">PLAYERS</td>
-                <td>SETS</td>
-                <td>CHECK</td>
+                <td colspan="2"><strong>PLAYERS</strong></td>
+                <td><strong>SETS</strong></td>
+                <td><strong>CHECK</strong></td>
             </tr>
             <tr>
                 <td colspan="2">PLAYERS</td>

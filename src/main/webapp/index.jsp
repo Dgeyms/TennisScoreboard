@@ -9,7 +9,7 @@
         <h1>WELCOME TO THE TENNIS MATCH HOME PAGE</h1>
 
         <div id="image-container">
-        <img src="images/Tennis Step.jpg" alt="Tennis table">
+        <img src="images/BigTennis.png" alt="BigTennis">
         </div>
 
         <div id="new-match">
