@@ -1,4 +1,4 @@
-package servlet;
+package controller;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
@@ -8,7 +8,8 @@ import java.io.IOException;
 @WebServlet(name = "MatchScoreServlet", value = "/match-score")
 public class MatchScoreServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
     }
 }

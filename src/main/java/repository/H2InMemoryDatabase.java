@@ -2,8 +2,6 @@ package repository;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.Statement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class H2InMemoryDatabase {
@@ -16,4 +14,3 @@ public class H2InMemoryDatabase {
         return DriverManager.getConnection(DB_CONNECTION, DB_USER, DB_PASSWORD);
     }
 }
-
